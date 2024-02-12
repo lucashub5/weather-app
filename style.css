@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+* {
+    margin: 0px;
+}
+
+body label {
+    font-weight: bold;
+}
+
+body {
+    background: rgb(60, 60, 60);
+    color: white;
+    height: 100vh;
+    font-family: 'roboto';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#weatherInfo {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
